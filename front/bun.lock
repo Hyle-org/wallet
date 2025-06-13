@@ -12,14 +12,14 @@
         "elliptic": "^6.6.1",
         "hyli": "^0.3.0",
         "hyli-check-secret": "^0.3.5",
-        "hyli-wallet": "^0.3.3",
+        "hyli-wallet": "^0.3.4",
         "react": "^19.1.0",
         "react-dom": "^19.1.0",
         "react-router-dom": "^7.6.2",
       },
       "devDependencies": {
         "@eslint/js": "^9.28.0",
-        "@types/react": "^19.1.7",
+        "@types/react": "^19.1.8",
         "@types/react-dom": "^19.1.6",
         "@vitejs/plugin-react": "^4.5.2",
         "autoprefixer": "^10.4.21",
@@ -27,8 +27,8 @@
         "eslint-plugin-react-hooks": "^5.2.0",
         "eslint-plugin-react-refresh": "^0.4.20",
         "globals": "^16.2.0",
-        "postcss": "^8.5.4",
-        "tailwindcss": "^4.1.8",
+        "postcss": "^8.5.5",
+        "tailwindcss": "^4.1.9",
         "typescript": "~5.8.3",
         "typescript-eslint": "^8.34.0",
         "vite": "^6.3.5",
@@ -410,7 +410,7 @@
 
     "hyli-check-secret": ["hyli-check-secret@0.3.5", "", { "dependencies": { "hyli": "^0.3.0" }, "peerDependencies": { "@aztec/bb.js": "0.82.2", "@noir-lang/noir_js": "1.0.0-beta.2", "@noir-lang/noir_wasm": "1.0.0-beta.2" } }, "sha512-ZI4lpH8Ba28zAyFct03+lcBzwndgWyAFpuv4FpknYoIiMWOUzTpa5GeEbl1QtcPWtIC/icmvfpN7H55qNjHkaQ=="],
 
-    "hyli-wallet": ["hyli-wallet@0.3.3", "", { "dependencies": { "@types/crypto-js": "^4.2.2", "@types/elliptic": "^6.4.18", "@types/react-router-dom": "^5.3.3", "crypto-js": "^4.2.0", "elliptic": "^6.6.1", "hyli": "^0.3.0" }, "peerDependencies": { "hyli-check-secret": "^0.3.4", "react": "^19.1.0", "react-dom": "^19.1.0", "react-router-dom": "^7.6.0" } }, "sha512-eVt6cfUPN6QGlLHiunFMQaBB9Vv1AgHlwnXoP5g9XJpKlTpXFJZMD5EmED8L83w2ayBlEQdEB/4K2HUWTKp3Ww=="],
+    "hyli-wallet": ["hyli-wallet@0.3.4", "", { "dependencies": { "@types/crypto-js": "^4.2.2", "@types/elliptic": "^6.4.18", "@types/react-router-dom": "^5.3.3", "crypto-js": "^4.2.0", "elliptic": "^6.6.1", "hyli": "^0.3.0", "js-sha3": "^0.9.3" }, "peerDependencies": { "hyli-check-secret": "^0.3.4", "react": "^19.1.0", "react-dom": "^19.1.0", "react-router-dom": "^7.6.0" } }, "sha512-AF5GEH1X3OdB5ubRDciIVToKnWcW3hCQW2RHk4hMLUU6/smq5Fdz9tAaoLZGxRUTpSFyLuJWAEjvQkglpvHj2Q=="],
 
     "ieee754": ["ieee754@1.2.1", "", {}, "sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA=="],
 
@@ -429,6 +429,8 @@
     "is-number": ["is-number@7.0.0", "", {}, "sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng=="],
 
     "isexe": ["isexe@2.0.0", "", {}, "sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw=="],
+
+    "js-sha3": ["js-sha3@0.9.3", "", {}, "sha512-BcJPCQeLg6WjEx3FE591wVAevlli8lxsxm9/FzV4HXkV49TmBH38Yvrpce6fjbADGMKFrBMGTqrVz3qPIZ88Gg=="],
 
     "js-tokens": ["js-tokens@4.0.0", "", {}, "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="],
 
@@ -536,7 +538,7 @@
 
     "supports-color": ["supports-color@7.2.0", "", { "dependencies": { "has-flag": "^4.0.0" } }, "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="],
 
-    "tailwindcss": ["tailwindcss@4.1.9", "", {}, "sha512-anBZRcvfNMsQdHB9XSGzAtIQWlhs49uK75jfkwrqjRUbjt4d7q9RE1wR1xWyfYZhLFnFX4ahWp88Au2lcEw5IQ=="],
+    "tailwindcss": ["tailwindcss@4.1.10", "", {}, "sha512-P3nr6WkvKV/ONsTzj6Gb57sWPMX29EPNPopo7+FcpkQaNsrNpZ1pv8QmrYI2RqEKD7mlGqLnGovlcYnBK0IqUA=="],
 
     "tinyglobby": ["tinyglobby@0.2.14", "", { "dependencies": { "fdir": "^6.4.4", "picomatch": "^4.0.2" } }, "sha512-tX5e7OM1HnYr2+a2C/4V0htOcSQcoSTH9KgJnVvNm5zm/cyEWKJ7j7YutsH9CxMdtOkkLFy2AHrMci9IM8IPZQ=="],
 
